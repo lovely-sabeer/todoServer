@@ -13,7 +13,7 @@ connectDB();
 // Use routes
 app.use('/api/todos', todoRoutes);
 
-const port = process.env.PORT || 8000;
+const port = 8000;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
